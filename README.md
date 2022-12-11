@@ -1,3 +1,5 @@
+repeat wait() until game:IsLoaded()
+local PlaceId = game.PlaceId
 if game.PlaceId == 5902977746 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxygenzx/Ultimate/main/README.md", true))()
    elseif game.PlaceId == 2788229376 then
